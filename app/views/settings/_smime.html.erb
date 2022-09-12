@@ -1,0 +1,13 @@
+<h3><%= t('redmine_smime.certificate_not_available_message.settings_header') %></h3>
+<p>
+  <%= label_tag 'settings_certificate_not_available_message_sender_name', t('redmine_smime.certificate_not_available_message.sender_name.label') %>
+  <%= text_field_tag 'settings[certificate_not_available_message_sender_name]', Setting.plugin_redmine_smime[:certificate_not_available_message_sender_name], size: 60, style: 'width:100%;', id: 'settings_certificate_not_available_message_sender_name' %>
+</p>
+<p>
+  <%= label_tag 'settings_certificate_not_available_message_subject', t('redmine_smime.certificate_not_available_message.subject.label') %>
+  <%= text_field_tag 'settings[certificate_not_available_message_subject]', Setting.plugin_redmine_smime[:certificate_not_available_message_subject], size: 60, style: 'width:100%;', id: 'settings_certificate_not_available_message_subject' %>
+</p>
+<p>
+  <%= label_tag 'settings_certificate_not_available_message_body', t('redmine_smime.certificate_not_available_message.body.label') %>
+  <%= text_field_tag 'settings[certificate_not_available_message_body]', Setting.plugin_redmine_smime[:certificate_not_available_message_body], size: 60, style: 'width:100%;', id: 'settings_certificate_not_available_message_body' %>
+</p>

@@ -1,0 +1,10 @@
+en:
+  redmine_smime:
+    certificate_not_available_message:
+      settings_header: "Warn e-mail if no S/MIME-Zertifikat is available"
+      sender_name:
+        label: "Sender name"
+      subject:
+        label: "Subject"
+      body:
+        label: "Body"
